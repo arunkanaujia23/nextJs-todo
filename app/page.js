@@ -1,6 +1,7 @@
-import InputBox from '@/components/InputBox'
-import Navbar from '@/components/Navbar'
+import InputBox from '@/app/components/InputBox'
+import Navbar from '@/app/components/Navbar'
 import Image from 'next/image'
+import TodoListElement from '@/app/components/TodoListElement'
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <main className="text-center main-container">
           <InputBox/>
+          <TodoListElement/>
       </main>
     </>
 

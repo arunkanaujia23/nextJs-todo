@@ -1,6 +1,4 @@
 import React from "react";
-import ColorSchemaToggle from "./ColorSchemaToggle";
-
 const Navbar = () => {
   return (
     <nav className="navbar px-14 bg-zinc-200">
